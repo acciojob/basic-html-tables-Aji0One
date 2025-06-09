@@ -1,2 +1,20 @@
+.table, .trow th, .trow td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+}
 
-/* Your CSS Code here. */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trow {
+  background-color: #f2f2f2;
+
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
